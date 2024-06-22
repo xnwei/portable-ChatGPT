@@ -1,1 +1,1 @@
-# portable-ChatGPT
+# ChatRAG
