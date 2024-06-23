@@ -46,7 +46,33 @@ model_name = "meta-llama/Meta-Llama-3-8B-Instruct"<br>
 ```
 
 ### Client
-**Code:**[RecordMP4_HTTP_Post_Audio_TFTLCD.ino](https://github.com/xnwei/portable-ChatGPT/blob/main/RecordMP4_HTTP_Post_Audio_TFTLCD.ino)
+**Code:**[RecordMP4_HTTP_Post_Audio_TFTLCD.ino](https://github.com/xnwei/portable-ChatGPT/blob/main/RecordMP4_HTTP_Post_Audio_TFTLCD.ino)<br>
+```
+#define TFT_RESET 5 #define TFT_DC 4 #define TFT_CS SPI_SS
+
+AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET); #define TFT_RESET 5
+
+#define TFT_DC 4
+
+#define TFT_CS SPI_SS
+
+AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET);
+
+#define ILI9341_SPI_FREQUENCY 20000000
+
+#define FILENAME "TestRecordingAudioOnly.mp4"
+
+char ssid[] = "Hsun"; // your network SSID (Home WiFi or Smartphone Hotspot)
+
+char pass[] = "48918925"; // your network password
+
+int status = WL_IDLE_STATUS;
+
+char server[] = "172.20.10.9"; // the server IP running HTTP server on PC
+
+#define PORT 5000
+```
+
 
 
 
