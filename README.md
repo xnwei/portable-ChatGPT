@@ -14,6 +14,8 @@
 
 ---
 ## Development Board Introduciton
+<p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
+
 ---
 ## System Diagram
 ---
