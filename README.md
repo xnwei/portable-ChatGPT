@@ -23,6 +23,6 @@
 ## Implementation
 ---
 ## Demo Video
-[![](https://markdown-videos-api.jorgenkh.no/youtube/shorts/CBXGBWKEMnU?feature=share)](https://youtube.com/shorts/CBXGBWKEMnU?feature=share)
+(https://youtube.com/shorts/CBXGBWKEMnU?feature=share)
 
 ---
