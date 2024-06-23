@@ -22,8 +22,31 @@
 ---
 ## Implementation
 ### Server:
-model_name = "taide/Llama3-TAIDE-LX-8B-Chat-Alpha1"<br>
+model_name = "meta-llama/Meta-Llama-3-8B-Instruct"<br>
 **Code:**[AmebaPro2_Whisper_LlamaIndex_RAG_server.py](https://github.com/xnwei/portable-ChatGPT/blob/main/AmebaPro2_Whisper_LlamaIndex_RAG_server.py)<br>
+```
+    # print(decoded_data)
+    #Save the decoded data to an MP4 file
+    with open("output.mp4", "wb") as f:
+        f.write(decoded_data)
+  
+    # Whisper transcribe
+    result = ASR.transcribe("output.mp4",fp16=False)
+    header1 = "ASR: "
+    result1 = result["text"]        
+    print(header1+result1)
+    
+    # Query-Engine
+    prompt = result["text"]
+    response = query_engine.query(prompt)
+    header2 = "LLaVA: "
+    result2 = response.response
+    print(header2+result2)
+    return Response(header1+result1+"\n"+header2+result2)
+```
+
+### Client
+**Code:**[RecordMP4_HTTP_Post_Audio_TFTLCD.ino](
 
 
 
