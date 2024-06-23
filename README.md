@@ -1,6 +1,6 @@
 # ChatRAG
 
-##Prouduct Definition
+## Prouduct Definition
 ---
-##Development Board Introduciton
+## Development Board Introduciton
 ---
