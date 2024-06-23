@@ -23,7 +23,7 @@
 ## Implementation
 ### Server:
 model_name = "taide/Llama3-TAIDE-LX-8B-Chat-Alpha1"<br>
-**Code:**[AmebaPro2_Whisper_LlamaIndex_RAG_server.py]
+**Code:**[AmebaPro2_Whisper_LlamaIndex_RAG_server.py](
 
 
 
