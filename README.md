@@ -46,7 +46,7 @@ model_name = "meta-llama/Meta-Llama-3-8B-Instruct"<br>
 ```
 
 ### Client
-**Code:**[RecordMP4_HTTP_Post_Audio_TFTLCD.ino](
+**Code:**[RecordMP4_HTTP_Post_Audio_TFTLCD.ino](https://github.com/xnwei/portable-ChatGPT/blob/main/RecordMP4_HTTP_Post_Audio_TFTLCD.ino)
 
 
 
