@@ -23,6 +23,6 @@
 ## Implementation
 ---
 ## Demo Video
-(https://youtube.com/shorts/CBXGBWKEMnU?feature=share)
+https://youtube.com/shorts/CBXGBWKEMnU?feature=share
 
 ---
